@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice JavaScript 1</title>
+</head>
+<body>
+    <h1>Exercice JavaScript 1</h1>
+
+    <form id="formulaire">
+        <label for="nom">Entrez votre nom</label>
+        <input type="text" id="nom" placeholder="Saisissez votre nom" required>
+
+        <label for="age">Entrez votre âge</label>
+        <input type="number" id="age" placeholder="Saisissez votre âge" required>
+
+        <label for="langage">Quel est votre langage préféré ?</label>
+        <select id="langage" required>
+            <option value="">Choisir un langage</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+        </select>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <div class="affichage">
+        <div class="affichage">
+        <p id="affichenom"></p>
+        <p id="afficheage"></p>
+        <p id="affichelangage"></p>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
